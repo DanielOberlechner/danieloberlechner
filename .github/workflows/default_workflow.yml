@@ -14,3 +14,44 @@ jobs:
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
+      - uses: lowlighter/metrics@latest
+        with:
+          # ... other options
+          plugin_habits: yes
+          plugin_habits_from: 200       # Use 200 events to compute habits
+          plugin_habits_days: 14        # Keep only events from last 14 days
+          plugin_habits_facts: yes      # Display facts section
+          plugin_habits_charts: yes     # Display charts section
+          plugin_habits_trim: yes       # Trim unused hours on daily chart
+          config_timezone: Europe/Paris # Set timezone
+      - uses: lowlighter/metrics@latest
+        with:
+          # ... other options
+          plugin_languages: yes
+          plugin_languages_ignored: html, css                           # List of languages to ignore
+          plugin_languages_skipped: ""                       # List of repositories to skip
+          plugin_languages_colors: "0:orange, javascript:#ff0000, ..."  # Make most used languages orange and JavaScript red
+          plugin_languages_aliases: "JavaScript:JS, TypeScript:TS, ..." # Customize languages names with aliases
+          plugin_languages_details: bytes-size, percentage              # Additionally display total bytes size and percentage
+          plugin_languages_threshold: 2%                                # Hides all languages less than 2%
+          plugin_languages_limit: 10                                     # Display up to 8 languages
+          plugin_languages_sections: most-used, recently-used           # Display most used and recently used languages stats
+          plugin_languages_indepth: no                                  # Get indepth stats (see documentation before enabling)
+          plugin_languages_categories: programming                      # Display only languages that match these categories in most-used section
+          plugin_languages_recent_categories: markup, programming, data # Display only languages that match these categories in recently-used section
+          plugin_languages_recent_load: 500                             # Load up to 500 events to compute recently used stats
+          plugin_languages_recent_days: 7                               # Limit recently used stats to last week
+          commits_authoring: lowlighter@users.noreply.github.com     
+      - uses: lowlighter/metrics@latest
+        with:
+          # ... other options
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year # Display full year instead of half year
+#       - uses: lowlighter/metrics@latest
+#         with:
+#           # ... other options
+#           plugin_stock: yes
+#           plugin_stock_token: ${{ secrets.STOCK_TOKEN }} # RapidAPI Yahoo Finance token
+#           plugin_stock_symbol: TSLA                      # Display Tesla stock price
+#           plugin_stock_duration: 1d                      # Display last day of market
+#           plugin_stock_interval: 5m  
