@@ -24,6 +24,7 @@ jobs:
           plugin_habits_charts: yes     # Display charts section
           plugin_habits_trim: yes       # Trim unused hours on daily chart
           config_timezone: Europe/Paris # Set timezone
+          token: ${{ secrets.METRICS_TOKEN }}
       - uses: lowlighter/metrics@master
         with:
           # ... other options
@@ -41,12 +42,14 @@ jobs:
           plugin_languages_recent_categories: markup, programming, data # Display only languages that match these categories in recently-used section
           plugin_languages_recent_load: 500                             # Load up to 500 events to compute recently used stats
           plugin_languages_recent_days: 7                               # Limit recently used stats to last week
-          commits_authoring: lowlighter@users.noreply.github.com     
+          commits_authoring: lowlighter@users.noreply.github.com
+          token: ${{ secrets.METRICS_TOKEN }}
       - uses: lowlighter/metrics@master
         with:
           # ... other options
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year # Display full year instead of half year
+          token: ${{ secrets.METRICS_TOKEN }}
 #       - uses: lowlighter/metrics@latest
 #         with:
 #           # ... other options
@@ -55,3 +58,4 @@ jobs:
 #           plugin_stock_symbol: TSLA                      # Display Tesla stock price
 #           plugin_stock_duration: 1d                      # Display last day of market
 #           plugin_stock_interval: 5m  
+#           token: ${{ secrets.METRICS_TOKEN }}
