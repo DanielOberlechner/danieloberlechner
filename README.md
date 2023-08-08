@@ -1,6 +1,10 @@
 ### We are the people that rule the world. ~Empire of the Sun 👋
 [Empire of the Sun](https://www.youtube.com/watch?v=hN5X4kGhAtU)
 
+### This is our decision to live fast and die young,
+### We've got the vision, now let's have some fun
+[Time to pretend](https://www.youtube.com/watch?v=B9dSYgd5Elk)
+
 [![HitCount](http://hits.dwyl.com/DanielOberlechner/DanielOberlechner.svg?style=flat-square)](http://hits.dwyl.com/DanielOberlechner/DanielOberlechner)
 
 <!-- If you're using "master" as default branch -->
