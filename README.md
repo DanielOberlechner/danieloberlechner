@@ -5,7 +5,7 @@
 ### We've got the vision, now let's have some fun
 [Time to pretend](https://www.youtube.com/watch?v=B9dSYgd5Elk)
 
-[![HitCount](http://hits.dwyl.com/DanielOberlechner/DanielOberlechner.svg?style=flat-square)](http://hits.dwyl.com/DanielOberlechner/DanielOberlechner)
+<!--[![HitCount](http://hits.dwyl.com/DanielOberlechner/DanielOberlechner.svg?style=flat-square)](http://hits.dwyl.com/DanielOberlechner/DanielOberlechner) -->
 
 <!-- If you're using "master" as default branch -->
 <!-- ![Metrics](https://github.com/danieloberlechner/danieloberlechner/blob/master/github-metrics.svg) -->
@@ -14,8 +14,10 @@
 <!-- If you're using the "columns" display mode -->
 <!-- <img src="https://github.com/danieloberlechner/danieloberlechner/blob/master/github-metrics.svg" alt="Metrics" width="100%"> -->
 
-- 🔭 I’m currently working on my personal portfolio/blog website https://danobe.dev
-- 🌱 I’m currently learning all about Web Development (NextJS & React, MDX, TypeScript)
+- 🔭 I’m currently working on my personal portfolio/blog website https://danobe.dev,
+  refactoring front end of [verkehrsinfos.it](https://verkehrsinfos.it) with React and NextJS
+  managing whatsapp groups concering where the police was sighted and forward messages to multiple groups (one group is limited to 1024 users)
+- 🌱 I’m currently learning in my free time all about Web Development (NextJS & React, MDX, TypeScript), and @work in the Elektrisola company Java development + Angular web client.
 - 🤔 I’m looking for good ideas in general to move something in the world :) You got a idea and need someone to work on it even just a fun project?<br> Hit me up, exchange of information is free ;)
 - 📫 How to reach me: All my information is sitting on the left of my profile :) or even on my website.
 - ⚡ Fun fact: I may not be the best developer in the world but my energy flows towards to become the best developer possible I can for myself :)
