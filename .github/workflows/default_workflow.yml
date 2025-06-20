@@ -50,12 +50,18 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year # Display full year instead of half year
           token: ${{ secrets.METRICS_TOKEN }}
-#       - uses: lowlighter/metrics@latest
-#         with:
-#           # ... other options
-#           plugin_stock: yes
-#           plugin_stock_token: ${{ secrets.STOCK_TOKEN }} # RapidAPI Yahoo Finance token
-#           plugin_stock_symbol: TSLA                      # Display Tesla stock price
-#           plugin_stock_duration: 1d                      # Display last day of market
-#           plugin_stock_interval: 5m  
-#           token: ${{ secrets.METRICS_TOKEN }}
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.wakatime.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_wakatime: yes
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          plugin_wakatime_url: https://wakapi.danobe.dev
+          plugin_wakatime_user: Danielhok
+          plugin_wakatime_days: 365
+          
+
+
+
