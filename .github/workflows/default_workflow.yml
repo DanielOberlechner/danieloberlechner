@@ -50,7 +50,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year # Display full year instead of half year
           token: ${{ secrets.METRICS_TOKEN }}
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@mastder
         with:
           filename: metrics.plugin.wakatime.svg
           token: ${{ secrets.METRICS_TOKEN }}
