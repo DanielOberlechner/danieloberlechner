@@ -14,12 +14,12 @@
 <!-- If you're using the "columns" display mode -->
 <!-- <img src="https://github.com/danieloberlechner/danieloberlechner/blob/master/github-metrics.svg" alt="Metrics" width="100%"> -->
 
-- 🔭 I’m currently working on my personal portfolio/blog website https://danobe.dev,
-  refactoring front end of [verkehrsinfos.it](https://verkehrsinfos.it) with React and NextJS
-  managing whatsapp groups concering where the police was sighted and forward messages to multiple groups (one group is limited to 1024 users)
-- 🌱 I’m currently learning in my free time all about Web Development (NextJS & React, MDX, TypeScript), and @work in the Elektrisola company Java development + Angular web client.
-- 🤔 I’m looking for good ideas in general to move something in the world :) You got a idea and need someone to work on it even just a fun project?<br> Hit me up, exchange of information is free ;)
-- 📫 How to reach me: All my information is sitting on the left of my profile :) or even on my website.
-- ⚡ Fun fact: I may not be the best developer in the world but my energy flows towards to become the best developer possible I can for myself :)
+I'm working or have worked with the following technologies in alphabetical order:
+
+<p align="">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=angular,apple,aws,bash,bitbucket,bootstrap,bun,cs,cloudflare,css,docker,dotnet,git,github,gitlab,html,js,nextjs,npm,prisma,react,redis,tailwind,ts,vercel,vue,webstorm" />
+  </a>
+</p>
 
 Due to the fact that I'm working currently in a comapny I don't have time to push very often new content to my website or work on personal/community projects.
