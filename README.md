@@ -22,4 +22,4 @@ I'm working or have worked with the following technologies in alphabetical order
   </a>
 </p>
 
-Due to the fact that I'm working currently in a comapny I don't have time to push very often new content to my website or work on personal/community projects.
+<p>Currently I'm working on a private project called 'Auto reminder' which allows business to send on regular basis text messages, for example if you have a dentis appointment in one week so that you get 3 days and also 2 hours before the appointment a text message so you don't miss the appointment. Not sure if this project will take off but it is sure worth a try ;)</p>
