@@ -22,6 +22,6 @@ I'm working or have worked with the following technologies in alphabetical order
   </a>
 </p>
 
-<p>Currently I'm working on a private project called 'Auto reminder' which allows business to send on regular basis text messages, for example if you have a dentis appointment in one week so that you get 3 days and also 2 hours before the appointment a text message so you don't miss the appointment. Not sure if this project will take off but it is sure worth a try ;)</p>
+<p>Now my first iOS App is in Apple's App Store available. The app helps you track your bad habits like smoking, drinking or whatever bothers you. Check out 'Clarity: Consumption Tracker' <a href="https://apps.apple.com/en/app/clarity-consumption-tracker/id6792196361">here</a></p>
 
 ![](https://komarev.com/ghpvc/?username=danieloberlechner)
